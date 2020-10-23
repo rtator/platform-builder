@@ -16,11 +16,11 @@
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `</field></shadow></value><value name="kind"><shadow type="spritekind" id="m$Jv|89?G9sg4d#R8axF"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="`sUr,5QG!^%Mkvbjyj%Y"><field name="VAR" id="Q=l^kua;;+X_l(`N;DWR">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="0xqFZWhw`bB?VzQn?2Z@"><value name="img"><shadow type="screen_image_picker" id="{icdZ];4c}Z3bX41|4vs"><field name="img">img`
-. . . . . f f f f f 
-. . . . . f 1 1 1 f 
-. . . . . f 1 1 1 f 
-. . . . . f 1 1 1 f 
-f f f f f f 1 1 1 f 
+. . . . . . f f f f 
+. . . . . . f 1 1 f 
+. . . . . . f 1 1 f 
+. . . . . . f 1 1 f 
+f f f f f f f 1 1 f 
 f 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 f 
@@ -28,4 +28,4 @@ f 1 1 1 1 1 1 1 1 f
 f 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 f 
 f f f f f f f f f f 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="7x,#Ah=pN]jWnPMb=H3`"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor" id="J[a@Gppyp}S}c=m,yI!E"><value name="color"><shadow type="colorindexpicker" id="7oNm;j^(FN{A:W].o/S6"><field name="index">9</field></shadow></value></block></next></block></next></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="7x,#Ah=pN]jWnPMb=H3`"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor" id="J[a@Gppyp}S}c=m,yI!E"><value name="color"><shadow type="colorindexpicker" id="7oNm;j^(FN{A:W].o/S6"><field name="index">9</field></shadow></value><next><block type="game_control_sprite" id="6r%78|V?|?aomlU(/l(="><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="@WK_z1}D5W*im+mGv}J("><field name="VAR" id="Ad8d)?_/G}V2F=~S#YH2">mySprite</field></block></value></block></next></block></next></block></next></block></statement></block></xml>
