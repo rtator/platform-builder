@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="pSQ71Nxks{W{^H%w4YBa">Player</variable><variable type="KIND_SpriteKind" id="!GJAuVZ{zm+K4l;a=8EZ">Projectile</variable><variable type="KIND_SpriteKind" id="lI,(S3re!oUX60Zz|wp@">Food</variable><variable type="KIND_SpriteKind" id="(ES4IyN/L}6#89;v]oJl">Enemy</variable><variable id="Ad8d)?_/G}V2F=~S#YH2">mySprite</variable><variable id="Q=l^kua;;+X_l(`N;DWR">mySprite2</variable></variables><block type="pxt-on-start" id="7NNmmZODpQ;_ZuNI?)xk" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="::0aJ6k7ligUYj|TgyS+"><field name="VAR" id="Ad8d)?_/G}V2F=~S#YH2">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="/K7zTiQ!I;-HUtxz[c.T"><value name="img"><shadow type="screen_image_picker" id="TI9-oLe8Neg#5[ci~gOz"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="m$Jv|89?G9sg4d#R8axF"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="`sUr,5QG!^%Mkvbjyj%Y"><field name="VAR" id="Q=l^kua;;+X_l(`N;DWR">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="0xqFZWhw`bB?VzQn?2Z@"><value name="img"><shadow type="screen_image_picker" id="{icdZ];4c}Z3bX41|4vs"><field name="img">img`
+. . . . . f f f f f 
+. . . . . f 1 1 1 f 
+. . . . . f 1 1 1 f 
+. . . . . f 1 1 1 f 
+f f f f f f 1 1 1 f 
+f 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 f 
+f f f f f f f f f f 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="7x,#Ah=pN]jWnPMb=H3`"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor" id="J[a@Gppyp}S}c=m,yI!E"><value name="color"><shadow type="colorindexpicker" id="7oNm;j^(FN{A:W].o/S6"><field name="index">9</field></shadow></value></block></next></block></next></block></statement></block></xml>
